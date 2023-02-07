@@ -1,7 +1,7 @@
 package String;
 
 public class StringUpperCase {
-    public static String toUpperCase(String str) {
+    public static void toUpperCase(String str) {
         StringBuilder sb = new StringBuilder("");
 
         char ch = Character.toUpperCase(str.charAt(0));
